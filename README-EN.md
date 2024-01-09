@@ -4,7 +4,7 @@
 
 
 
-
+[中文](https://github.com/mcks2000/KG_RAG/blob/main/README-CN.md) ｜ [英文](https://github.com/mcks2000/KG_RAG/blob/main/README-EN.md)
 ## Table of Contents
 [What is KG-RAG](https://github.com/BaranziniLab/KG_RAG#what-is-kg-rag)
 

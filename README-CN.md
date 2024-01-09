@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://github.com/mcks2000/KG_RAG/assets/42702311/0b2f5b42-761e-4d5b-8d6f-77c8b965f017" width="450">
+  <img src="https://github.com/BaranziniLab/KG_RAG/assets/42702311/0b2f5b42-761e-4d5b-8d6f-77c8b965f017" width="450">
 </p>
 
 
 
-
+[中文](https://github.com/mcks2000/KG_RAG/blob/main/README-CN.md) ｜ [英文](https://github.com/mcks2000/KG_RAG/blob/main/README-EN.md)
 ## 目录
 [什么是 KG-RAG](https://github.com/mcks2000/KG_RAG#what-is-kg-rag)
 
@@ -30,7 +30,7 @@ KG-RAG 代表基于知识图谱的检索增强生成。
 
 ### 从观看 KG-RAG 视频开始
 
-<video src="https://github.com/mcks2000/KG_RAG/assets/42702311/86e5b8a3-eb58-4648-95a4-271e9c69b4ed" controls="controls" style="max-width: 730px;">
+<video src="https://github.com/BaranziniLab/KG_RAG/assets/42702311/86e5b8a3-eb58-4648-95a4-271e9c69b4ed" controls="controls" style="max-width: 730px;">
 </video>
 
 该视频讲述了，它将知识图谱（Knowledge Graph, KG）的显式知识与大型语言模型（Large Language Model, LLM）的隐式知识结合起来，详情可以参考论文[arXiv preprint](https://arxiv.org/abs/2311.17330) 
@@ -50,7 +50,7 @@ KG-RAG 的主要特点是从 SPOKE 知识图谱中提取“prompt-aware context�
 以下摘要显示了FDA [网站](https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-weight-management-patients-bardet-biedl-syndrome-aged-6-or-older)  上关于药物**"西瓜甙"**获得批准用于治疗巴代特-*比德尔综合症患者* 的体重管理的新闻。你可以通过此链接查看完整信息。
 
 
-<img src="https://github.com/mcks2000/KG_RAG/assets/42702311/fc4d0b8d-0edb-461d-86c5-9d0d191bd97d" width="600" height="350">
+<img src="https://github.com/BaranziniLab/KG_RAG/assets/42702311/fc4d0b8d-0edb-461d-86c5-9d0d191bd97d" width="600" height="350">
 
 ### 请向 GPT-4 询问有关上述药物的情况：
 
@@ -58,14 +58,14 @@ KG-RAG 的主要特点是从 SPOKE 知识图谱中提取“prompt-aware context�
 
 *注：本例使用 KG-RAG v0.3.0 运行。我们是从终端而不是 chatGPT 浏览器提示 GPT。所有分析中的温度参数都设置为 0。参数设置请参阅 [this](https://github.com/mcks2000/KG_RAG/blob/main/config.yaml) yaml 文件*。
 
-<video src="https://github.com/mcks2000/KG_RAG/assets/42702311/dbabb812-2a8a-48b6-9785-55b983cb61a4" controls="controls" style="max-width: 730px;">
+<video src="https://github.com/BaranziniLab/KG_RAG/assets/42702311/dbabb812-2a8a-48b6-9785-55b983cb61a4" controls="controls" style="max-width: 730px;">
 </video>
 
 ### 带 KG-RAG
 
 *注：本例使用 KG-RAG v0.3.0 运行。所有分析中的温度参数都设置为 0。参数设置请参阅 [this](https://github.com/mcks2000/KG_RAG/blob/main/config.yaml) yaml 文件*。
 
-<video src="https://github.com/mcks2000/KG_RAG/assets/42702311/acd08954-a496-4a61-a3b1-8fc4e647b2aa" controls="controls" style="max-width: 730px;">
+<video src="https://github.com/BaranziniLab/KG_RAG/assets/42702311/acd08954-a496-4a61-a3b1-8fc4e647b2aa" controls="controls" style="max-width: 730px;">
 </video>
 
 可以看出，KG-RAG 能够提供有关 FDA 批准的 [药物](https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-weight-management-patients-bardet-biedl-syndrome-aged-6-or-older) 的正确信息。
@@ -131,7 +131,7 @@ python -m kg_rag.rag_based_generation.GPT.text_generation -g <your favorite gpt 
 
 注：以下示例在 AWS p3.8xlarge EC2 实例上运行，并使用 KG-RAG v0.3.0。
 
-<video src="https://github.com/mcks2000/KG_RAG/assets/42702311/defcbff7-e777-4db6-b028-10f54c76b234" controls="controls" style="max-width: 730px;">
+<video src="https://github.com/BaranziniLab/KG_RAG/assets/42702311/defcbff7-e777-4db6-b028-10f54c76b234" controls="controls" style="max-width: 730px;">
 </video>
 
 #### 使用 GPT 交互模式
@@ -152,7 +152,7 @@ python -m kg_rag.rag_based_generation.Llama.text_generation -m <method-1 or meth
 
 注：以下示例在 AWS p3.8xlarge EC2 实例上运行，使用的是 KG-RAG v0.3.0。
 
-<video src="https://github.com/mcks2000/KG_RAG/assets/42702311/94bda923-dafb-451a-943a-1d7c65f3ffd4" controls="controls" style="max-width: 730px;">
+<video src="https://github.com/BaranziniLab/KG_RAG/assets/42702311/94bda923-dafb-451a-943a-1d7c65f3ffd4" controls="controls" style="max-width: 730px;">
 </video>
 
 #### 使用 Llama 互动模式
